@@ -38,7 +38,7 @@
 .content-item {
     border: 5px solid lightgrey;
     border-radius: 20px;
-    padding: 10px;
+    padding: 5px;
     height: 100%;
     position: absolute;
 }
@@ -68,37 +68,4 @@
     width: 100%;
     background-color: red;
     height: 1rem;
-}
-
-.test {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    height: 10rem;
-    background: green;
-    position: relative;
-}
-
-.child {
-    position: absolute;
-    left: 0px;
-    width: 20%;
-    height: 5rem;
-    background: blue;
-}
-
-.child2 {
-    position: absolute;
-    width: 20%;
-    right: 0px;
-    height: 5rem;
-    background: rgba(255, 0, 255, 50);
-}
-
-.child3 {
-    position: absolute;
-    width: 59%;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 5rem;
-    background: rgba(100, 0, 255, 50);
 }

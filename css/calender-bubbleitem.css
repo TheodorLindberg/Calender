@@ -1,0 +1,85 @@
+.bubbleitem {
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 10px;
+}
+
+.bubbleitem-encourage {
+    border-color: hsl(170, 70%, 70%);
+}
+
+.bubbleitem-discourage {
+    border-color: hsl(0, 70%, 68%);
+}
+
+.programming {
+    float: left;
+    width: 40%;
+    height: 10rem;
+    background-color: hsl(110, 90%, 75%);
+}
+
+.homework {
+    float: left;
+    width: 40%;
+    height: 10rem;
+    background-color: hsl(118, 90%, 75%);
+}
+
+.electronics {
+    float: left;
+    width: 20%;
+    height: 12.5rem;
+    background-color: hsl(130, 90%, 75%);
+}
+
+.read {
+    float: left;
+    width: 60%;
+    height: 5rem;
+    background-color: hsl(140, 90%, 75%);
+}
+
+.training {
+    float: left;
+    width: 60%;
+    height: 5rem;
+    background-color: hsl(150, 90%, 75%);
+}
+
+.meditate {
+    float: left;
+    width: 40%;
+    height: 4rem;
+    background-color: hsl(160, 90%, 75%);
+}
+
+.outside {
+    float: left;
+    width: 40%;
+    height: 10rem;
+    background-color: hsl(170, 90%, 75%);
+}
+
+.netflix {
+    float: left;
+    width: 50%;
+    height: 10rem;
+    background-color: hsl(350, 90%, 75%);
+}
+
+.youtube {
+    float: right;
+    width: 30%;
+    height: 22.5rem;
+    background-color: hsl(360, 90%, 75%);
+}
+
+.gaming {
+    float: left;
+    width: 50%;
+    height: 10rem;
+    background-color: hsl(10, 90%, 75%);
+}
