@@ -1,0 +1,64 @@
+.calender {
+    margin-top: 100px;
+    position: relative;
+    padding: 20px;
+    height: 50rem;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.calender-controll-navigatedate {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 55%;
+    display: flex;
+    justify-content: center;
+}
+
+.calender-controll-navigatedate-button {
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    margin: 3px;
+    width: 23%;
+    padding: 3px;
+    color: black;
+    border: 5px solid lightblue;
+    border-radius: 10px;
+    background: skyblue;
+}
+
+.calender-day {
+    position: absolute;
+    width: 96%;
+    display: flex;
+    flex-direction: row;
+    height: 10rem;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.calender-column {
+    margin: 5px;
+    width: 13%;
+    float: left;
+    height: 40px;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 20px;
+    border: 10px solid hsl(195, 80%, 60%);
+    background-color: hsl(195, 100%, 75%);
+    color: hsl(195, 80%, 20%);
+    font-family: 'Oswald', sans-serif;
+}
+
+.calender-column-info {
+    border: 5px solid hsl(195, 80%, 60%);
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 40rem;
+}
+
+#calender-column-info-1 {}

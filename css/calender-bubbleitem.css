@@ -4,19 +4,30 @@
     margin: 10px;
     border-style: solid;
     border-width: 10px;
-    font-weight: 550;
-    font-size: 15px;
+    font-size: 25px;
     font-family: 'Oswald', sans-serif;
+}
+
+.encourage-list h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: hsl(150, 50%, 34%);
+}
+
+.discourage-list h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: hsl(0, 50%, 34%);
 }
 
 .bubbleitem-encourage {
     border-color: hsl(170, 70%, 70%);
-    color: hsl(150, 55%, 15%);
+    color: hsl(150, 55%, 27%);
 }
 
 .bubbleitem-discourage {
     border-color: hsl(0, 70%, 68%);
-    color: hsl(0, 50%, 20%);
+    color: hsl(0, 50%, 27%);
 }
 
 .programming {
@@ -35,21 +46,21 @@
 
 .electronics {
     float: left;
-    width: 20%;
+    width: 30%;
     height: 12.5rem;
     background-color: hsl(130, 90%, 75%);
 }
 
 .read {
     float: left;
-    width: 60%;
+    width: 50%;
     height: 5rem;
     background-color: hsl(140, 90%, 75%);
 }
 
 .training {
     float: left;
-    width: 60%;
+    width: 50%;
     height: 5rem;
     background-color: hsl(150, 90%, 75%);
 }
