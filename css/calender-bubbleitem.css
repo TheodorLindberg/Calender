@@ -4,14 +4,19 @@
     margin: 10px;
     border-style: solid;
     border-width: 10px;
+    font-weight: 550;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .bubbleitem-encourage {
     border-color: hsl(170, 70%, 70%);
+    color: hsl(150, 55%, 15%);
 }
 
 .bubbleitem-discourage {
     border-color: hsl(0, 70%, 68%);
+    color: hsl(0, 50%, 20%);
 }
 
 .programming {
