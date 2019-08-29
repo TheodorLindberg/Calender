@@ -1,5 +1,4 @@
 .calender {
-    margin-top: 100px;
     position: relative;
     padding: 20px;
     height: 50rem;
@@ -62,3 +61,15 @@
 }
 
 #calender-column-info-1 {}
+
+
+/*drop Css*/
+
+.calender-drop-info {
+    top: 300px;
+    height: 10rem;
+    position: relative;
+    width: 88%;
+    border: 5px dotted black;
+    border-radius: 5px;
+}

@@ -29,8 +29,9 @@
 
 .content {
     height: 70rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    margin-top: 0.8%;
+    margin-left: 0.8%;
+    margin-right: 0.8%;
     text-align: center;
     position: relative;
 }
@@ -38,7 +39,7 @@
 .content-item {
     border: 5px solid lightgrey;
     border-radius: 20px;
-    padding: 5px;
+    padding: 0;
     height: 100%;
     position: absolute;
 }
